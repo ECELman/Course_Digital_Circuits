@@ -1,0 +1,19 @@
+|Up-Down_Binary_Counter
+DA0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLOCK => inst.CLK
+CLOCK => inst1.CLK
+CLOCK => inst2.CLK
+CLOCK => inst3.CLK
+EN => inst5.IN1
+EN => inst9.IN1
+EN => inst11.IN1
+EN => inst22.IN1
+DA1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+S => inst7.IN0
+S => inst13.IN2
+S => inst15.IN0
+S => inst19.IN3
+DA2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+DA3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+
